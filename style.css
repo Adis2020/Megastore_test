@@ -5,6 +5,7 @@ body {
 .main-block {
     width: 640px;
     height: 328px;
+    text-align: center;
 
     background-color: white;
     border-radius: 4px;
@@ -22,5 +23,36 @@ h1 {
     font-family: "ubuntu";
     font-weight: 500;
     font-size: 16px;
-    text-align: center;
+}
+
+h2 {
+    margin-top: 8px;
+
+    font-family: "ubuntu";
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #A9A9A9;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    margin-top: 16px;
+}
+
+button {
+    position: absolute;
+    width: 384px;
+    height: 48px;
+    margin-top: 126px;
+    margin-left: -230px;
+
+    font-family: "ubuntu";
+    font-size: 16px;
+
+    background-color: #232529;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
 }
